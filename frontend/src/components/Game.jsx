@@ -90,6 +90,7 @@ changeMovie()
   return (
     <div>
       <h2 className="Title">Guess The Movie</h2>
+      <h2 style={{ color: 'white'}} >use lowerCase to play</h2>
       <div className="moviegamecontainer">
         <h1 className="moviename">{movie}</h1>
         <div className="inputcon">

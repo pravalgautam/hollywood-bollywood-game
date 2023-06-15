@@ -13,7 +13,7 @@ function Login() {
     e.preventDefault();
     try {
       await account.createEmailSession(user.email, user.password);
-      navigate('./Profile');
+      navigate('./Game');
     } catch (error) {
       console.log(error);
     }

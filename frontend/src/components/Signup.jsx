@@ -22,7 +22,7 @@ function Signup() {
     promise.then(
       function(response) {
         console.log(response);
-        navigate("/Profile");
+        navigate("/Game");
       },
       function(error) {
         console.log(error);
